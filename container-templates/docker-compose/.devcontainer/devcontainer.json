@@ -13,16 +13,13 @@
 	// connected. This is typically a volume mount in .devcontainer/docker-compose.yml
 	"workspaceFolder": "/workspace",
 
-	// Uncomment this like if you want to keep your containers running after VS Code shuts down.
-	// "shutdownAction": "none",
+	// Add any extensions you want auto-installed here.
+	"extensions": [],
 
-	// Uncomment the next line if you want to add in default container specific settings.json values
-	// "settings":  { "workbench.colorTheme": "Quiet Light" },
+	// Update the value of this line to 'none' if you want to keep your containers running after VS Code shuts down.
+	"shutdownAction": "stopCompose",
 
 	// Uncomment the next line to run commands after the container is created.
 	// "postCreateCommand": ["uname -a"]
-
-	// Add the IDs of any extensions you want installed in the array below.
-	"extensions": []
-
+	
 }

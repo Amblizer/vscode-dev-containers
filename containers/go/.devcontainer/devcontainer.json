@@ -1,6 +1,9 @@
 {
 	"name": "Go",
 	"dockerFile": "Dockerfile",
+	"extensions": [
+		"ms-vscode.go"
+	],
 	"runArgs": [
 		"--cap-add=SYS_PTRACE",
 		"--security-opt", "seccomp=unconfined"
@@ -10,12 +13,6 @@
 	// "appPort": [],
 
 	// Uncomment the next line to run commands after the container is created.
-	// "postCreateCommand": "go version",
+	// "postCreateCommand": "go version"
 
-	"extensions": [
-		"ms-vscode.go"
-	],
-	"settings": {
-		"go.gopath": "/go"
-	}
 }
